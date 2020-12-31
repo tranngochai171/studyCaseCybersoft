@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo Canvas</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-input">
+        <div class="form-group row">
+          <label for="backyard" class="col-sm-2 col-form-label">
+            Chiều dài sân
+          </label>
+          <div class="col-sm-4">
+            <input id="backyard" type="number" class="form-control" required />
+          </div>
+          <div class="col-sm-4">
+            Chiều dài max: <span id="currentBYWidth"></span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="backyard" class="col-sm-2 col-form-label">
+            Bán kính cây
+          </label>
+          <div class="col-sm-4">
+            <input id="radius" type="number" class="form-control" required />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="backyard" class="col-sm-2 col-form-label">
+            Khoảng cách giữa các cây
+          </label>
+          <div class="col-sm-4">
+            <input id="distance" type="number" class="form-control" required />
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10"></div>
+          <div class="col-sm-2">
+            <button type="submit" id="submit" class="btn btn-primary">
+              Mô phỏng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+canvas {
+  border: 2px solid red;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 1rem;
+}
